@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-04T18:49:19 CLT" name="Surefire suite" finished-at="2022-05-04T18:49:31 CLT" duration-ms="11904">
+  <suite name="Surefire suite" duration-ms="11959" started-at="2022-05-04T20:01:19 CLT" finished-at="2022-05-04T20:01:31 CLT">
     <groups>
     </groups>
-    <test started-at="2022-05-04T18:49:19 CLT" name="Surefire test" finished-at="2022-05-04T18:49:31 CLT" duration-ms="11904">
+    <test name="Surefire test" duration-ms="11959" started-at="2022-05-04T20:01:19 CLT" finished-at="2022-05-04T20:01:31 CLT">
       <class name="TestNg">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:19 CLT" name="beforeSuite" finished-at="2022-05-04T18:49:19 CLT" duration-ms="21" status="PASS">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNg@670b40af]" name="beforeSuite" is-config="true" duration-ms="19" started-at="2022-05-04T20:01:19 CLT" finished-at="2022-05-04T20:01:19 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:19 CLT" name="beforeTest" finished-at="2022-05-04T18:49:19 CLT" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNg@670b40af]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-05-04T20:01:19 CLT" finished-at="2022-05-04T20:01:19 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:19 CLT" name="beforeClass" finished-at="2022-05-04T18:49:19 CLT" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNg@670b40af]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-05-04T20:01:19 CLT" finished-at="2022-05-04T20:01:19 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:19 CLT" name="beforeMethod" finished-at="2022-05-04T18:49:27 CLT" duration-ms="7373" status="PASS">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNg@670b40af]" name="beforeMethod" is-config="true" duration-ms="7960" started-at="2022-05-04T20:01:19 CLT" finished-at="2022-05-04T20:01:27 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:27 CLT" name="f" data-provider="dp" finished-at="2022-05-04T18:49:27 CLT" duration-ms="3" status="PASS">
+        <test-method status="PASS" signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:TestNg@670b40af]" name="f" duration-ms="3" started-at="2022-05-04T20:01:27 CLT" data-provider="dp" finished-at="2022-05-04T20:01:27 CLT">
           <params>
             <param index="0">
               <value>
@@ -39,15 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:27 CLT" name="afterMethod" finished-at="2022-05-04T18:49:27 CLT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNg@670b40af]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-05-04T20:01:27 CLT" finished-at="2022-05-04T20:01:27 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:27 CLT" name="beforeMethod" finished-at="2022-05-04T18:49:31 CLT" duration-ms="4415" status="PASS">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNg@670b40af]" name="beforeMethod" is-config="true" duration-ms="3903" started-at="2022-05-04T20:01:27 CLT" finished-at="2022-05-04T20:01:31 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:31 CLT" name="f" data-provider="dp" finished-at="2022-05-04T18:49:31 CLT" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:TestNg@670b40af]" name="f" duration-ms="1" started-at="2022-05-04T20:01:31 CLT" data-provider="dp" finished-at="2022-05-04T20:01:31 CLT">
           <params>
             <param index="0">
               <value>
@@ -63,19 +63,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:31 CLT" name="afterMethod" finished-at="2022-05-04T18:49:31 CLT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNg@670b40af]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-05-04T20:01:31 CLT" finished-at="2022-05-04T20:01:31 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:31 CLT" name="afterClass" finished-at="2022-05-04T18:49:31 CLT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNg@670b40af]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-05-04T20:01:31 CLT" finished-at="2022-05-04T20:01:31 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:31 CLT" name="afterTest" finished-at="2022-05-04T18:49:31 CLT" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNg@670b40af]" name="afterTest" is-config="true" duration-ms="1" started-at="2022-05-04T20:01:31 CLT" finished-at="2022-05-04T20:01:31 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNg@6973bf95]" started-at="2022-05-04T18:49:31 CLT" name="afterSuite" finished-at="2022-05-04T18:49:31 CLT" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNg@670b40af]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-05-04T20:01:31 CLT" finished-at="2022-05-04T20:01:31 CLT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
